@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .mango ~ li {
+            color: blueviolet;
+        }
+
+        input {
+            display: block;
+        }
+        input + input {
+            margin: 10px;
+        }
+        button + button {
+            margin-left: 16px;
+        }
+
+        
+
+    </style>
+
+
+
+</head>
+<body>
+    <div>
+        <ul>
+            <li>포도</li>
+            <li>딸기</li>
+            <li id="mango" class="mango">망고</li>
+            <li>복숭아</li>
+        </ul>
+        <div>당근</div>
+        <p>토마토</p>
+        <span class="mango">망고</span>
+    </div>
+
+    <div class="mango">망고</div>
+
+    <ul>
+        <li>딸기</li>
+        <li>수박</li>
+        <li class="mango">망고</li>
+        <li >오렌지</li>
+        <li>사과</li>
+        <li>과자</li>
+      </ul>
+
+      <input type="text">
+      <input type="text">
+      <input type="text">
+
+      <button type="button">확인</button>
+      <button type="button">취소</button>
+      <button type="button">뒤로</button>
+
+</body>
+</html>
