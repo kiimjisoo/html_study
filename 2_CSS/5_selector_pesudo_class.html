@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    /* 1.어떤 행동시 동작하는 가상 클래스 선택자  
+        마우스 커서 올라가있는 동안 동작
+    */
+    a:hover {
+        color: pink;
+    }
+
+    /* :focus 요소가 포거스(활성화)되면 선택 마우스 클릭이나 tab키로 확인가능 */
+    input:focus {
+        background-color: aqua;
+    }
+
+    .fruits *:nth-child(2n+1) {
+      color: red;
+    }
+
+
+
+   </style>
+    
+    
+
+
+
+
+</head>
+<body>
+    <a href="https://www.naver.com">NAVER</a>
+
+    <div class="box"></div>
+    <hr>
+
+    <input type="text">
+    <hr>
+
+    <div class="fruits">
+        <span>딸기</span>
+        <span>수박</span>
+        <div>오렌지</div>
+        <div>방구</div>
+        <p>망고</p>
+        <h3>사과</h3>
+    </div>
+
+</body>
+</html>
